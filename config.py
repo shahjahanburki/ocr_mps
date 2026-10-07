@@ -20,5 +20,6 @@ class Config:
         self.output_dir.mkdir(exist_ok=True)
         
 
+
 config = Config()
 config.ensure_directories()
